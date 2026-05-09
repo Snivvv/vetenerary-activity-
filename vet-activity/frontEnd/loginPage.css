@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(135deg, #d4f5e9, #f0fff7);
+}
+
+.login-form {
+    transition: 0.3s ease;
+}
+
+.login-form:hover {
+    transform: translateY(-5px);
+}
+.forgot-password {
+    margin: 0;
+    font-size: 13px;
+    text-decoration: none;
+}
