@@ -1,0 +1,116 @@
+body {
+      background-color: #e6f4ea; 
+      font-family: 'Arial', sans-serif;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hero-section {
+      padding: 1rem 2rem;
+    }
+
+    .hero-card {
+      background: linear-gradient(135deg, #f0f9f4, #e6f4ea);
+      border: 2px solid #28a745;
+      border-radius: 1rem;
+      padding: 4rem 2rem;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #28a745;
+    }
+
+    .hero-text {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #333;
+    }
+
+    .hero-buttons {
+      margin-top: 2rem;
+      
+    }
+
+    .btn-primary {
+      background-color: #28a745;
+      border-color: #28a745;
+      border-radius: 50px;
+      padding: 0.6rem 2rem;
+      font-weight: 600;
+    }
+
+    .btn-outline-primary {
+      border-radius: 50px;
+      padding: 0.6rem 2rem;
+      font-weight: 600;
+      border-color: #28a745;
+      color: #28a745;
+    }
+
+    .hero-image {
+      max-width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    }
+    
+    .accent-circle {
+      width: 20px;
+      height: 20px;
+      background-color: #28a745;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .card{
+     transition: 0.3s ease;
+    }
+    .card:hover{
+          transform: translateY(-13px);
+    }
+    .carousel-item img {
+      max-height: 500px;
+      object-fit: contain;
+    }
+
+    .container{
+      margin-top: 100px;
+    }
+
+    .footer {
+     background-color: #198754;
+    }
+
+    .footer-link {
+      color: #ffffffcc;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-link:hover {
+      color: #ffffff;
+      padding-left: 5px;
+      transition: 0.3s;
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      border: 1px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .social-icon:hover {
+      background-color: white;
+      color: #198754;
+    }
